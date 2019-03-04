@@ -9,7 +9,7 @@
 
 #include "MatrixTests.cpp"
 
-int main(int argc, char **argv)
+int _main(int argc, char **argv)
 {
 	::testing::InitGoogleTest(&argc, argv);
 	return RUN_ALL_TESTS();
